@@ -7,8 +7,8 @@ function App() {
     <>
       <main className="container">
         <Testimonials />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
