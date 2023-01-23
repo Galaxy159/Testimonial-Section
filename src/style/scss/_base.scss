@@ -1,0 +1,54 @@
+$color-violet: #7541c8;
+$color-grayish-blue-dark: #48556a;
+$color-primary-background: #ecf2f8;
+$color-blackish-blue: #19212e;
+$color-white: #ffffff;
+$color-gray-light: #cfcfcf;
+
+// Note for text colors:
+
+// 1. "Verified Graduate" has the same color as the person's name with 50% opacity
+// 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == desktop {
+    @media (min-width: 1110px) {
+      @content;
+    }
+  }
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
+  position: relative;
+  background-color: $color-primary-background;
+}
+
+p {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+}

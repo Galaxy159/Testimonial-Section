@@ -1,0 +1,116 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
+  position: relative;
+  background-color: #ecf2f8;
+}
+
+p {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.testimonials {
+  margin: 7.1rem 2.4rem;
+  max-width: 32.7rem;
+  display: grid;
+  gap: 2.4rem;
+}
+.testimonials__testimonial {
+  padding: 3.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 4rem 6rem 5rem -4.7rem rgba(72, 85, 106, 0.247378);
+}
+.testimonials__testimonial:nth-child(1), .testimonials__testimonial:nth-child(2), .testimonials__testimonial:nth-child(4) {
+  color: #ffffff;
+}
+.testimonials__testimonial:nth-child(3), .testimonials__testimonial:nth-child(5) {
+  color: #48556a;
+}
+.testimonials__testimonial:nth-child(1) {
+  background-color: #7541c8;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 0 right 2.4rem;
+}
+.testimonials__testimonial:nth-child(2) {
+  background-color: #48556a;
+}
+.testimonials__testimonial:nth-child(3) {
+  background-color: #ffffff;
+}
+.testimonials__testimonial:nth-child(4) {
+  background-color: #19212e;
+}
+.testimonials__testimonial:nth-child(5) {
+  background-color: #ffffff;
+}
+.testimonials__testimonial--details {
+  display: grid;
+  grid-template-columns: repeat(2, -webkit-max-content);
+  grid-template-columns: repeat(2, max-content);
+  align-items: center;
+  -moz-column-gap: 1.6rem;
+       column-gap: 1.6rem;
+  row-gap: 0.4rem;
+  margin-bottom: 1.8rem;
+}
+.testimonials__testimonial--avatar {
+  grid-row: 1/3;
+  height: 2.8rem;
+}
+.testimonials__testimonial--avatar-img {
+  border-radius: 50%;
+  height: 2.8rem;
+}
+.testimonials__testimonial--name {
+  line-height: 1.3rem;
+}
+.testimonials__testimonial--title {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  opacity: 0.5;
+}
+.testimonials__testimonial--headline {
+  margin-bottom: 1.6rem;
+}
+.testimonials__testimonial--text {
+  opacity: 0.7;
+  max-width: 26.3rem;
+}/*# sourceMappingURL=App.css.map */
