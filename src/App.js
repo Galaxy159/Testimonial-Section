@@ -1,5 +1,5 @@
 import "./style/App.css";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <main className="container">
         <Testimonials />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
