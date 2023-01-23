@@ -15,6 +15,7 @@ export default function Testimonials() {
                 src={daniel}
                 alt="Daniel"
                 className="testimonials__testimonial--avatar-img"
+                style={{ border: "2px solid #a775f1" }}
               />
             </div>
             <p className="testimonials__testimonial--name">Daniel Clifford</p>
@@ -90,6 +91,7 @@ export default function Testimonials() {
                 src={patrick}
                 alt="Patrick"
                 className="testimonials__testimonial--avatar-img"
+                style={{ border: "2px solid #733FC8" }}
               />
             </div>
             <p className="testimonials__testimonial--name">Patrick Abrams</p>
