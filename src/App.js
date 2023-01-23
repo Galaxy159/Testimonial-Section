@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <main className="container">
+        <h1>some healine</h1>
         <Testimonials />
       </main>
       {/* <Footer /> */}
